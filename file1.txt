@@ -1,0 +1,16 @@
+total 104
+drwxr-xr-x  15 pro  staff   480 Oct 25 12:29 .
+drwx------+ 12 pro  staff   384 Oct 25 11:46 ..
+-rw-r--r--@  1 pro  staff  6148 Oct 25 02:04 .DS_Store
+-rwxr-xr-x   1 pro  staff    52 Oct 25 11:49 0_base.sh
+-rwxr-xr-x   1 pro  staff   119 Oct 25 00:28 1_input_output.sh
+-rw-r--r--   1 pro  staff    80 Oct 25 00:28 2_comments.sh
+-rwxr-xr-x   1 pro  staff   353 Oct 25 01:27 3_hereDoc.sh
+-rwxr-xr-x   1 pro  staff   523 Oct 25 01:53 4_conditional_statements.sh
+-rwxr-xr-x   1 pro  staff   856 Oct 25 11:04 5_loops.sh
+-rwxr-xr-x   1 pro  staff   231 Oct 25 11:49 6_script_input.sh
+-rwxr-xr-x   1 pro  staff   353 Oct 25 12:34 7_script_output.sh
+-rw-r--r--   1 pro  staff     0 Oct 25 12:34 file1.txt
+-rw-r--r--   1 pro  staff    35 Oct 25 12:31 file2.txt
+-rwxr-xr-x   1 pro  staff    69 Oct 25 01:27 output.sh
+-rw-r--r--@  1 pro  staff    11 Oct 25 00:27 output.txt
