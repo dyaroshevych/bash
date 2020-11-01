@@ -36,3 +36,8 @@ echo ${str4^L} # linuxclub
 
 # make all 'u's uppercase
 echo ${str4^^u} # linUxclUb
+
+str5="LiNuXcLuB"
+
+echo ${str5,} # liNuXcLuB
+echo ${str5,,} # linuxclub
