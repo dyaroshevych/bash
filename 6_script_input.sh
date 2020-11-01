@@ -7,9 +7,18 @@ args=("$@")
 echo ${args[0]} ${args[1]}
 echo ${#args[@]}
 
-# read from the specified file
-# if there is no file, read from console
+# set first parameter to be input file, if
+# nothing is provided then use console as input
+[ $1 ] && input=$1 || input="/dev/stdin"
+
+# if input file does not exist then create it
+if ! [ -f $input ]
+then
+    touch $input
+fi
+
+# read line-by-line from input file
 while read line
 do
     echo "$line"
-done < "${1:-/dev/stdin}"
+done < $input
