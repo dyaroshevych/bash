@@ -1,14 +1,12 @@
 #! /usr/local/bin/bash
 
-echo $BASH_VERSION
-
 
 # while loop
 num=1
 
 while [ $num -le 10 ]
 do
-    echo "$num"
+    echo $num
     ((num++))
 done
 
@@ -18,7 +16,7 @@ num=5
 
 until [ $num -eq 10 ]
 do
-    echo "$num"
+    echo $num
     ((num++))
 done
 
@@ -35,6 +33,9 @@ for i in {0..5}
 do
     echo $i
 done
+
+
+echo $BASH_VERSION
 
 
 # for loop - range with step [new versions]
@@ -57,11 +58,11 @@ do
     echo $i
 done
 
-# # infinite loop
-# for (( ; ; ))
-# do
-#     echo 'this is an infinite loop'
-# done
+# infinite loop
+for (( ; ; ))
+do
+    echo 'this is an infinite loop'
+done
 
 
 # break and continue statements
@@ -77,5 +78,5 @@ do
         break
     fi
 
-    echo "$i"
+    echo $i
 done

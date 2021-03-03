@@ -35,7 +35,7 @@ do
     echo $i
 done
 
-for i in ${array[*]}
+for i in "${array[@]}"
 do
     echo $i
 done

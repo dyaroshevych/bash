@@ -10,6 +10,5 @@ echo $input >> output.txt
 
 # cat > output.txt
 
-# cat >> output.txt
-
+cat >> output.txt
 

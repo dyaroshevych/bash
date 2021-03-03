@@ -20,5 +20,5 @@ fi
 # read line-by-line from input file
 while read line
 do
-    echo "$line"
+    echo $line
 done < $input

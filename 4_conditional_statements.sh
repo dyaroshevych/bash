@@ -5,32 +5,44 @@ count=11
 
 if [ $count -eq 10 ]
 then
-    echo "count is equal to 10"
+    echo "wow"
 elif [ $count -gt 10 ]
 then
-    echo "count is greater than 10"
+    echo "hello"
 else
-    echo "count is less than 10"
+    echo "goodbye"
 fi
 
+score=5
 
-if (( $count == 10 ))
+if (( $score < 0 )) || (( $score > 12 ))
 then
-    echo "count is equal to 10"
-elif (( $count > 10 ))
-then
-    echo "count is greater than 10"
+	echo "smth is wrong"
 else
-    echo "count is less than 10"
+	echo "ok"
 fi
 
+name="James"
 
-if [ $count -ge 11 ] && [ $count -le 20 ]
+if [ $name == "James" -o $name == "Andrii" ]
 then
-    echo "11 <= count <= 20"
+	echo "-_-"
 fi
 
-if [ $count -le 11 ] || [ $count -ge 20 ]
+if [ $name == "James" && $name == "Andrii" ]
 then
-    echo "count <= 11 or count >= 20"
+	echo "--_--"
 fi
+
+if [ "abc" > "ab" ]
+then
+	echo "!!!"
+elif
+	echo "???"
+fi
+
+if [ -n "ab" ]
+then
+	echo "this string is not empty!"
+fi
+
